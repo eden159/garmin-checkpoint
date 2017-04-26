@@ -1,0 +1,7 @@
+<strings>
+    <string id="AppName">Checkpoints</string>
+
+    <string id="label">Next checkpoint:</string>
+    <string id="completed">No checkpoints</string>
+    <string id="remain_label">Remaining:</string>
+</strings>

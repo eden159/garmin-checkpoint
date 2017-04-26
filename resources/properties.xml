@@ -1,0 +1,131 @@
+<resources>
+
+    <properties>
+        <property id="ch1_name" type="string">Checkpoint1</property>
+        <property id="ch1_dist" type="float">0.1</property>
+
+        <property id="ch2_name" type="string">Checkpoint2</property>
+        <property id="ch2_dist" type="float">1</property>
+
+        <property id="ch3_name" type="string">Checkpoint3</property>
+        <property id="ch3_dist" type="float">0</property>
+
+        <property id="ch4_name" type="string">Checkpoint4</property>
+        <property id="ch4_dist" type="float">0</property>
+
+        <property id="ch5_name" type="string">Checkpoint5</property>
+        <property id="ch5_dist" type="float">0</property>
+
+        <property id="ch6_name" type="string">Checkpoint6</property>
+        <property id="ch6_dist" type="float">0</property>
+
+        <property id="ch7_name" type="string">Checkpoint7</property>
+        <property id="ch7_dist" type="float">0</property>
+
+        <property id="ch8_name" type="string">Checkpoint8</property>
+        <property id="ch8_dist" type="float">0</property>
+
+        <property id="ch9_name" type="string">Checkpoint9</property>
+        <property id="ch9_dist" type="float">0</property>
+
+        <property id="ch10_name" type="string">Checkpoint10</property>
+        <property id="ch10_dist" type="float">0</property>
+
+        <property id="ch11_name" type="string">Checkpoint11</property>
+        <property id="ch11_dist" type="float">0</property>
+
+        <property id="ch12_name" type="string">Checkpoint12</property>
+        <property id="ch12_dist" type="float">0</property>
+    </properties>
+
+    <strings>
+       <string id="checkpoint_title">Checkpoint name or leave empty if not used</string>
+       <string id="checkpoint_distance">Distance (km) or leave 0 if not used</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.ch1_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch1_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch2_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch2_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch3_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch3_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch4_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch4_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch5_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch5_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch6_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch6_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch7_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch7_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch8_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch8_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch9_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch9_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch10_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch10_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch11_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch11_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.ch12_name" title="@Strings.checkpoint_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.ch12_dist" title="@Strings.checkpoint_distance">
+            <settingConfig type="numeric" />
+        </setting>
+    </settings>
+</resources>
